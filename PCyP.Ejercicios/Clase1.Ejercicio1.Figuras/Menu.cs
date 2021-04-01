@@ -32,10 +32,10 @@ namespace Clase1.Ejercicio1.Figuras
 
                         int lado = int.Parse(Console.ReadLine());
 
-                        Cuadrado cua = new Cuadrado();
+                        Cuadrado cuad = new Cuadrado();
 
-                        Console.WriteLine("El area del cuadrado es:{cua.calcularArea()}");
-                        Console.WriteLine("El perimetro del cuadrado es:{cua.calcularPerimetro()}");
+                        Console.WriteLine("El area del cuadrado es:{cuad.calcularArea()}");
+                        Console.WriteLine("El perimetro del cuadrado es:{cuad.calcularPerimetro()}");
 
                         break;
 
@@ -46,10 +46,10 @@ namespace Clase1.Ejercicio1.Figuras
                         Console.WriteLine("Ingrese base");
                         int baseFigura = int.Parse(Console.ReadLine());
 
-                        Rectangulo rec = new Rectangulo();
+                        Rectangulo rect = new Rectangulo();
 
-                        Console.WriteLine("El area del rectangulo es:{rec.calcularArea()}");
-                        Console.WriteLine("El perimetro del rectangulo es:{rec.calcularPerimetro()}");
+                        Console.WriteLine("El area del rectangulo es:{rect.calcularArea()}");
+                        Console.WriteLine("El perimetro del rectangulo es:{rect.calcularPerimetro()}");
                         break;
 
                     case 3:
@@ -61,10 +61,10 @@ namespace Clase1.Ejercicio1.Figuras
                         Console.WriteLine("Ingrese lado");
                         lado = int.Parse(Console.ReadLine());
 
-                        Triangulo tri = new Triangulo();
+                        Triangulo trian = new Triangulo();
 
-                        Console.WriteLine("El area del rectangulo es:{tri.calcularArea()}");
-                        Console.WriteLine("El perimetro del rectangulo es:{tri.calcularPerimetro()}");
+                        Console.WriteLine("El area del rectangulo es:{trian.calcularArea()}");
+                        Console.WriteLine("El perimetro del rectangulo es:{trian.calcularPerimetro()}");
                         break;
 
                     case 4:
@@ -76,5 +76,3 @@ namespace Clase1.Ejercicio1.Figuras
         }
     }
 }
-
-
