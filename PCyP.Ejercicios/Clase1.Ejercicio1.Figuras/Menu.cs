@@ -34,8 +34,8 @@ namespace Clase1.Ejercicio1.Figuras
 
                         Cuadrado cua = new Cuadrado();
 
-                        Console.WriteLine($"El area del cuadrado es:{cua.calcularArea()}");
-                        Console.WriteLine($"El perimetro del cuadrado es:{cua.calcularPerimetro()}");
+                        Console.WriteLine("El area del cuadrado es:{cua.calcularArea()}");
+                        Console.WriteLine("El perimetro del cuadrado es:{cua.calcularPerimetro()}");
 
                         break;
 
@@ -48,8 +48,8 @@ namespace Clase1.Ejercicio1.Figuras
 
                         Rectangulo rec = new Rectangulo();
 
-                        Console.WriteLine($"El area del rectangulo es:{rec.calcularArea()}");
-                        Console.WriteLine($"El perimetro del rectangulo es:{rec.calcularPerimetro()}");
+                        Console.WriteLine("El area del rectangulo es:{rec.calcularArea()}");
+                        Console.WriteLine("El perimetro del rectangulo es:{rec.calcularPerimetro()}");
                         break;
 
                     case 3:
@@ -63,17 +63,14 @@ namespace Clase1.Ejercicio1.Figuras
 
                         Triangulo tri = new Triangulo();
 
-                        Console.WriteLine($"El area del rectangulo es:{tri.calcularArea()}");
-                        Console.WriteLine($"El perimetro del rectangulo es:{tri.calcularPerimetro()}");
+                        Console.WriteLine("El area del rectangulo es:{tri.calcularArea()}");
+                        Console.WriteLine("El perimetro del rectangulo es:{tri.calcularPerimetro()}");
                         break;
 
                     case 4:
-                        Console.WriteLine("Chau!!");
+                        Console.WriteLine("Exit");
                         break;
                 }
-
-                Console.ReadLine();
-                Console.Clear();
             }
             while (opcion != 4);
         }
