@@ -14,7 +14,6 @@ namespace Clase1.Ejercicio1.Figuras
 
             do
             {
-
                 Console.WriteLine("Area y Perimetro");
 
                 Console.WriteLine("01-Cuadrado - Area y Perimetro");
