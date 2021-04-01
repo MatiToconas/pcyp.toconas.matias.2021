@@ -6,24 +6,24 @@ using System.Threading.Tasks;
 
 namespace Clase1.Ejercicio1.Figuras
 {
-    class Rectangulo : Figura
+    class Triangulo : Figura
     {
-        private double longitudBase, altura;
+        private double ladoBase, altura;
 
-        public Rectangulo()
+        public Triangulo()
         {
-            longitudBase=0;
+            ladoBase=0;
             altura=0;
         }
 
         public double getBase()
         {
-            return longitudBase;
+            return ladoBase;
         }
 
         public void setBase(double lado)
         {
-            longitudBase=lado;
+            ladoBase=lado;
         }
 
         public double getAltura()
@@ -31,20 +31,19 @@ namespace Clase1.Ejercicio1.Figuras
             return altura;
         }
 
-        public void setAltura(double lado)
+        public void setAltura(double alt)
         {
-            altura=lado;
+            altura=alt;
         }
 
         public double calcularArea()
         {
-            return longitudBase*altura;
+            return (ladoBase*altura)/2;
         }
 
         public double calcularPerimetro()
         {
-            return (longitudBase*2)+(altura*2);
+            return ladoBase*3;
         }
     }
 }
-

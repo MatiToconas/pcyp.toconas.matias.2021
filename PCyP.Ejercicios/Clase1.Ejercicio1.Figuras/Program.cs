@@ -14,8 +14,7 @@ namespace Clase1.Ejercicio1.Figuras
     {
         static void Main(string[] args)
         {
-            Figura fig = new Figura();
-            fig.Perimetro();
+            Menu menuprincipal = new Menu();
         }
     }
 }

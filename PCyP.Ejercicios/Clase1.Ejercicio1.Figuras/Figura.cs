@@ -6,18 +6,9 @@ using System.Threading.Tasks;
 
 namespace Clase1.Ejercicio1.Figuras
 {
-    public class Figura
-    {
-        private List<int> lados;
-
-        public int Perimetro()
+        interface Figura
         {
-            return 0;
-        }
-
-        public int Area()
-        {
-            return 0;
+            double calcularArea();
+            double calcularPerimetro();
         }
     }
-}
