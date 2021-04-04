@@ -8,6 +8,11 @@ namespace Clase1.Ejercicio1.Figuras
 {
     class Menu
     {
+        public Menu()
+        {
+            MenuPrincipal();
+        }
+
         public void MenuPrincipal()
         {
             int opcion = 0;
@@ -70,6 +75,7 @@ namespace Clase1.Ejercicio1.Figuras
                         Console.WriteLine("Exit");
                         break;
                 }
+                Console.ReadLine();
             }
             while (opcion != 4);
         }
