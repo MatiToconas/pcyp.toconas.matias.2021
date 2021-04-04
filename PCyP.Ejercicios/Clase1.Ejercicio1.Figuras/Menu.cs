@@ -31,44 +31,34 @@ namespace Clase1.Ejercicio1.Figuras
                 switch (opcion)
                 {
                     case 1:
-
-                        Console.WriteLine("Ingrese lado");
-
-                        int lado = int.Parse(Console.ReadLine());
-
                         Cuadrado cuad = new Cuadrado();
+                        Console.WriteLine("Ingrese lado");
+                        cuad.setLado(double.Parse(Console.ReadLine()));
 
-                        Console.WriteLine("El area del cuadrado es:{cuad.calcularArea()}");
-                        Console.WriteLine("El perimetro del cuadrado es:{cuad.calcularPerimetro()}");
-
+                        Console.WriteLine("El area del cuadrado es:{0}",cuad.calcularArea());
+                        Console.WriteLine("El perimetro del cuadrado es:{0}",cuad.calcularPerimetro());
                         break;
 
                     case 2:
-
-                        Console.WriteLine("Ingrese altura");
-                        int altura = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Ingrese base");
-                        int baseFigura = int.Parse(Console.ReadLine());
-
                         Rectangulo rect = new Rectangulo();
+                        Console.WriteLine("Ingrese base");
+                        rect.setBase(double.Parse(Console.ReadLine()));
+                        Console.WriteLine("Ingrese altura");
+                        rect.setAltura(double.Parse(Console.ReadLine()));
 
-                        Console.WriteLine("El area del rectangulo es:{rect.calcularArea()}");
-                        Console.WriteLine("El perimetro del rectangulo es:{rect.calcularPerimetro()}");
+                        Console.WriteLine("El area del rectangulo es:{0}",rect.calcularArea());
+                        Console.WriteLine("El perimetro del rectangulo es:{0}",rect.calcularPerimetro());
                         break;
 
                     case 3:
-
-                        Console.WriteLine("Ingrese altura");
-                        altura = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Ingrese base");
-                        baseFigura = int.Parse(Console.ReadLine());
-                        Console.WriteLine("Ingrese lado");
-                        lado = int.Parse(Console.ReadLine());
-
                         Triangulo trian = new Triangulo();
-
-                        Console.WriteLine("El area del rectangulo es:{trian.calcularArea()}");
-                        Console.WriteLine("El perimetro del rectangulo es:{trian.calcularPerimetro()}");
+                        Console.WriteLine("Ingrese altura");
+                        trian.setAltura(double.Parse(Console.ReadLine()));
+                        Console.WriteLine("Ingrese base");
+                        trian.setBase(double.Parse(Console.ReadLine()));
+                               
+                        Console.WriteLine("El area del triangulo es:{0}",trian.calcularArea());
+                        Console.WriteLine("El perimetro del triangulo es:{0}",trian.calcularPerimetro());
                         break;
 
                     case 4:
