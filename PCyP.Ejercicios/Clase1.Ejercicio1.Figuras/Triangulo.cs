@@ -8,22 +8,33 @@ namespace Clase1.Ejercicio1.Figuras
 {
     class Triangulo : Figura
     {
-        private double ladoBase, altura;
+        private double basetrian, altura, lado;
 
         public Triangulo()
         {
-            ladoBase=0;
+            basetrian=0;
             altura=0;
+            lado = 0;
+        }
+
+        public double getLado()
+        {
+            return lado;
+        }
+
+        public void setLado(double lad)
+        {
+            lado = lad;
         }
 
         public double getBase()
         {
-            return ladoBase;
+            return basetrian;
         }
 
-        public void setBase(double lado)
+        public void setBase(double bas)
         {
-            ladoBase=lado;
+            basetrian=bas;
         }
 
         public double getAltura()
@@ -38,12 +49,12 @@ namespace Clase1.Ejercicio1.Figuras
 
         public double calcularArea()
         {
-            return (ladoBase*altura)/2;
+            return (basetrian*altura)/2;
         }
 
         public double calcularPerimetro()
         {
-            return ladoBase*3;
+            return (lado * 2) + basetrian;
         }
     }
 }

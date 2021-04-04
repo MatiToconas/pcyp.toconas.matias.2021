@@ -56,6 +56,8 @@ namespace Clase1.Ejercicio1.Figuras
                         trian.setAltura(double.Parse(Console.ReadLine()));
                         Console.WriteLine("Ingrese base");
                         trian.setBase(double.Parse(Console.ReadLine()));
+                        Console.WriteLine("Ingrese lado");
+                        trian.setLado(double.Parse(Console.ReadLine()));
                                
                         Console.WriteLine("El area del triangulo es:{0}",trian.calcularArea());
                         Console.WriteLine("El perimetro del triangulo es:{0}",trian.calcularPerimetro());
