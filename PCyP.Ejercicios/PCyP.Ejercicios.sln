@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase1.Ejercicio1.Figuras", "Clase1.Ejercicio1.Figuras\Clase1.Ejercicio1.Figuras.csproj", "{A107D0C0-0B1E-43CB-8746-F6EACD8DF07C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase1.Ejercicio2.Vial", "Clase1.Ejercicio2.Vial\Clase1.Ejercicio2.Vial.csproj", "{DC712E78-8C84-4D44-9FCA-A7565DDFE2FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A107D0C0-0B1E-43CB-8746-F6EACD8DF07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A107D0C0-0B1E-43CB-8746-F6EACD8DF07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A107D0C0-0B1E-43CB-8746-F6EACD8DF07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC712E78-8C84-4D44-9FCA-A7565DDFE2FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC712E78-8C84-4D44-9FCA-A7565DDFE2FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC712E78-8C84-4D44-9FCA-A7565DDFE2FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC712E78-8C84-4D44-9FCA-A7565DDFE2FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
