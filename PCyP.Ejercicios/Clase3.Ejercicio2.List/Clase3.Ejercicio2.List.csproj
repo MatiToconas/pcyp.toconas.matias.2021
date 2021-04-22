@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{08C9E00D-7FE9-4E41-9258-E1292A552371}</ProjectGuid>
+    <ProjectGuid>{EDB28DA2-B94F-49E3-BF46-A78DD87D1FC9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Clase3.Ejerecicio2.Listas</RootNamespace>
-    <AssemblyName>Clase3.Ejerecicio2.Listas</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>Clase3.Ejercicio2.List</RootNamespace>
+    <AssemblyName>Clase3.Ejercicio2.List</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
