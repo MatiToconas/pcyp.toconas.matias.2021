@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3.Ejercicio3.Contador"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase3.Ejercicio2.List", "Clase3.Ejercicio2.List\Clase3.Ejercicio2.List.csproj", "{EDB28DA2-B94F-49E3-BF46-A78DD87D1FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase5.EjercicioMultiplicacionDeMatrices", "Clase5.EjercicioMultiplicacionDeMatrices\Clase5.EjercicioMultiplicacionDeMatrices.csproj", "{D659CC20-19DF-47A6-82EF-0A72D2D369A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EDB28DA2-B94F-49E3-BF46-A78DD87D1FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB28DA2-B94F-49E3-BF46-A78DD87D1FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB28DA2-B94F-49E3-BF46-A78DD87D1FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D659CC20-19DF-47A6-82EF-0A72D2D369A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D659CC20-19DF-47A6-82EF-0A72D2D369A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D659CC20-19DF-47A6-82EF-0A72D2D369A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D659CC20-19DF-47A6-82EF-0A72D2D369A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
